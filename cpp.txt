@@ -1,0 +1,1 @@
+Sign Expression Language Digital Assistant (SELDA) is an innovative AI-driven project designed to bridge the communication gap between hearing individuals and the deaf community. Leveraging advanced machine learning techniques, SELDA interprets and translates sign language gestures into text or speech, fostering greater accessibility and understanding in everyday interactions.

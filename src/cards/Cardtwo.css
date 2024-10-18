@@ -1,0 +1,20 @@
+.cardtwo{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px;
+    height: 125px;
+    padding: 10px;
+    position: absolute;
+    right: 40px;
+}
+h3{
+    padding: 0;
+}
+img{
+    float: right;
+    width: 100px;
+    height: 100px;
+}

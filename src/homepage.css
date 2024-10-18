@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.sectionOne {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100vh; 
+  margin: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  height: 100px;
+  padding: 0 20px;
+}
+
+  .title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    flex-shrink: 0;
+    padding-left: 48px;
+  }
+
+  .navbar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex;
+    gap: 40px; 
+  }
+  
+  .navbar button {
+    color: #000000;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: color 0.3s;
+    position: relative;
+  }
+  
+  .navbar button::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%; 
+    height: 2px; 
+    background: linear-gradient(to right, #4285F4, #EA4335, #FBBC05, #34A853); 
+    transition: .3s;
+    transform: scaleX(0); 
+    transform-origin: left; 
+  }
+  .navbar button:hover{
+    color: #5e6edb;
+  }
+  .navbar button:hover::before {
+    transform: scaleX(1);
+  }
+  .line {
+    border-top: 4px solid #000000; 
+    width: 90%; 
+    margin: 4px auto; 
+  }
+
+  .introduction{
+    padding-left: 72px;
+    position: relative;
+    top: 50px;
+  }
+
+  .introduction p{
+    position: absolute;
+    font-size: 64px;
+    color: #000000;
+  }
+
+  .introduction h2{
+    position: absolute;
+    padding-top: 48px;
+    font-size: 128px;
+    background: linear-gradient(to right, #4285F4, #EA4335, #FBBC05, #34A853); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+  .rectangle {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 200px;
+    height: 65px; 
+    background: #000000; 
+    border-radius: 50px; 
+    border: 1px solid transparent;
+    transition: 0.5s;
+    top: 200px;
+  }
+
+  .rectangle:hover {
+    background-color: #4285F4;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+  }
+  .sectionBlue{
+    position: relative;
+    top: -800px;
+  }
+  .textcard{
+    padding-top: 50px;
+    padding-left: 72px;
+    background-color: #40319e;
+    color: #ffffff;
+    position: absolute;
+    top: 720px;
+    height: 1000px;
+    width: 100%;
+  }
+  .sectionTwo {
+    background-color: white;
+    margin-top: 1000px;
+    overflow: hidden;
+    height: 1000px;
+    padding-top: 20px;
+  }
+
+  .sectionTwo h2 {
+    color: black;
+    margin-left: 40px;
+  }
+  
+  footer{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    font-size: 50px;
+  }
+
+  a{
+    margin: 0 30px;
+    font-weight: 500;
+    text-decoration: inherit;
+    color: #FFF;
+  }
+

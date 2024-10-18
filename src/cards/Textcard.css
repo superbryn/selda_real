@@ -1,0 +1,18 @@
+.textcard{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 200px;
+    text-align: left;
+}
+.question{
+    color: #3570dd;
+    font-size: 92px;
+}
+.firstIntro{
+    font-size: 50px;
+}
+.secondIntro{
+    line-height: 50px;
+    font-size: 32px;
+}
