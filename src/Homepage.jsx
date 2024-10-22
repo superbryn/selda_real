@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import Textcard from './cards/Textcard';
 import './homepage.css'
+import People from'./cards/peoplecard/meme_bers'
 import { useNavigate } from 'react-router-dom';
 import { FaTwitter, FaGithub, FaLinkedin, } from 'react-icons/fa';
 
@@ -57,6 +58,7 @@ function Homepage() {
 
         <div className="sectionTwo" ref={sectionTwoRef}>
           <h2>About</h2>
+          <People/>
         </div>
       
         <footer className='sectionThree' ref={sectionThreeRef}>
