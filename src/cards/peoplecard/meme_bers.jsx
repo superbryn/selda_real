@@ -6,7 +6,7 @@ function People(){
         <div className="players">
             <div className="card1" id='common'>
                 <h1>Anna</h1>
-                <p></p>
+                <p>What Up People</p>
             </div>
             <div className="card2" id='common'>
                 <h1>Richard</h1>
